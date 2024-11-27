@@ -1,19 +1,33 @@
 Chatbot Project
 
-Overview : 
+Overview :
+This project is a React-based chatbot application designed to provide users with data insights through an intuitive conversational interface. The application allows users to log in with their credentials, retrieve their passwords via a "Forgot Password" feature, and interact with a chatbot powered by a backend AI service.
 
-This project is a React-based chatbot application designed to interact with an AI service that provides viewing data such as total views for various content items. The chatbot displays responses in a user-friendly table format within a dynamic chat interface.
+The AI processes user queries about viewing data, such as total views or series-specific insights, and returns results in real time. The frontend dynamically formats this data into easy-to-read tables, offering users a seamless experience when analyzing their data. This project aims to combine user authentication and data visualization in one cohesive platform.
 
-Features : 
+Features :
+User Authentication:
 
-Dynamic chat interface for real-time interaction.
-Structured data display in table format.
-Persistent chat history using local storage.
-Automatic scroll to the latest message.
-Sidebar component prepared for future features.
+Login functionality with validation.
+"Forgot Password" option for account recovery.
+Dynamic Chat Interface:
 
-Technologies Used : 
+Real-time conversation handling.
+Structured data display in table format for user queries.
+Persistent Chat History:
 
+Saves conversation history using local storage.
+Automatically reloads past chats upon revisiting the app.
+Backend AI Integration:
+
+Processes queries related to viewing data.
+Returns detailed insights for user-defined criteria.
+Responsive Design:
+
+Optimized for various screen sizes.
+User-friendly design with a modern interface.
+
+Technologies Used :
 React
 Styled-components
 Axios
